@@ -16,4 +16,25 @@
     C.  student.greeting\
     D.  student[Favorite Teacher].name\
     E.  student.courseLoad[0]
-14. 
+14. \
+    A.  5. '3' is converted to the number 3. 3+2=5\
+    B.  1. '3' is converted to the number 3. 3-2=1\
+    C.  3. 'null' is coverted to 0. 3+0=3\
+    D.  3null. '3' is considered a character so the word null is just concanted with '3'. '3'+null=3null\
+    E.  4. 'true' is considered to equal 1 when compared to a number. 1+3=4\
+    F.  0. Both 'false' and 'null' are considered to be 0. 0+0=0\
+    G.  3undefined. "3" is considered to be a string and is concated with undefined. "3"+undefinded=3undefined\
+    H.  NaN. You cannot subtract strings.
+15. \
+    A.  True. 2 is greater than 1\
+    B.  False. 2 is greater than the first character of 12\
+    C.  True. '2' is converted to a number. 2=2\
+    D.  False. 2 is not exactly the same as '2'\
+    E.  False. 'true' is considered to be 1 numerically.\
+    F.  True. Boolean(2) translates into 'true'
+16. '==' checks the equality with type conversion, while '===' checks the equality without type conversion.
+17. 'How are you?' is printed because 2 is converted to the boolean value true and (2 == true) is false.
+18. In a separate file.
+19. Everytime you call 'modifyArray()', an empty array should be returned. This is because 'newArr' is initialized to be a constant empty array through the use of the 'const' tag.
+20. In a separate file.
+21. 1 4 3 2
